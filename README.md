@@ -51,6 +51,23 @@ This project is built from scratch without using pre-trained deep learning model
 - **Deliverables:**
   - Uploaded the trained `.pkl` model file to the repository.
 
+
+  ### ✅ Week 3: Inference Engine & Stress Testing
+**Status:** Completed
+**Key Activities:**
+- **Model Deployment (Simulation):**
+  - Successfully loaded the `.pkl` file using `joblib` to simulate a production environment.
+- **Inference Function:**
+  - Developed a `recommend_crop()` function that accepts 7 input parameters (N, P, K, Temp, Hum, pH, Rain).
+  - **Optimization:** Refactored the function to use Pandas DataFrames, resolving Scikit-Learn feature warning issues.
+- **Unit & Stress Testing:**
+  - Tested the system with varied "Farmer Scenarios" to validate logic.
+  - **Normal Conditions:** Correctly predicted **Rice** for wet/high-nitrogen soil and **Chickpea** for dry soil.
+  - **Stress Testing (Edge Cases):**
+    - *Cold Climate (12°C):* Predicted **Grapes** (Correct).
+    - *Poor Soil (Low Nutrients):* Predicted **Mothbeans** (Correct).
+    - *Tropical Swamp (High Heat/Humidity):* Predicted **Coconut** (Correct).
+
 ---
 
 ## 🛠 Tools & Technologies
