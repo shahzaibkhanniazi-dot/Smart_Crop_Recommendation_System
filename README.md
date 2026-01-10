@@ -91,3 +91,26 @@ This project is built from scratch without using pre-trained deep learning model
 
 ![Confusion Matrix](confusion_matrix.png)
 *Figure 2: Confusion Matrix showing model performance across all 22 crop classes.*
+
+---
+
+## 🔮 Future Scope & Improvements
+While this project successfully demonstrates the power of the Decision Tree algorithm for crop recommendation, there are several areas for future enhancement:
+1. **Web Interface:** Developing a user-friendly frontend using **Gradio** or **Streamlit** to allow farmers to easily input data without writing code.
+2. **Deep Learning Integration:** Implementing **CNNs (Convolutional Neural Networks)** to detect plant diseases from leaf images, combining visual data with soil metrics.
+3. **Real-Time IoT Data:** Integrating with IoT sensors to automatically fetch soil moisture and temperature data instead of manual entry.
+4. **Localization:** Adding support for local languages (Urdu) to make the tool accessible to rural farmers in Pakistan.
+
+---
+
+## 👨‍💻 Author & Contact
+**Project By:**
+* **Shah Zaib Khan** (ID: SU92-MSAIW-S25-019)
+* **Talha Bin Aslam** (ID: SU92-MSAIW-F25-043)
+
+**Course:** MS-AI (Fall 2025)
+**University:** Superior University
+**Instructor:** Sir Talha Nadeem
+
+---
+*This project was built from scratch to demonstrate fundamental Machine Learning concepts without reliance on pre-trained APIs.*
