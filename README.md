@@ -74,3 +74,20 @@ This project is built from scratch without using pre-trained deep learning model
 - **Language:** Python 3.x
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 - **Environment:** Google Colab / Jupyter Notebook
+
+### ✅ Week 4: Performance Evaluation & Documentation
+**Status:** Completed
+**Key Activities:**
+- **Rigorous Evaluation:**
+  - Generated a comprehensive Classification Report (Precision, Recall, F1-Score).
+  - Achieved an overall **Accuracy of 98%**.
+  - Identified **Perfect Predictions (F1=1.0)** for crops like Apple, Banana, and Cotton.
+- **Error Analysis:**
+  - Visualized errors using a **Confusion Matrix**.
+  - Observed minor confusion between **Rice** and **Jute**, likely due to their similar high-water requirements.
+- **Documentation:**
+  - Finalized the project report with a literature review of recent studies.
+  - Organized the repository for submission.
+
+![Confusion Matrix](confusion_matrix.png)
+*Figure 2: Confusion Matrix showing model performance across all 22 crop classes.*
