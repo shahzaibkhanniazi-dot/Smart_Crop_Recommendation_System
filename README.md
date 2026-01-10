@@ -1,7 +1,7 @@
 # Smart Crop Recommendation System 🌾
 
 ## 📌 Project Overview
-Smart Crop Recommendation System is an AI-based tool that helps farmers in Pakistan choose the most suitable and profitable crop using soil and weather data such as pH, rainfall, temperature, and humidity. It supports data-driven farming to improve yield, reduce risk, and promote sustainable agriculture.
+Smart Crop Recommendation System is an AI-based tool that helps farmers in Pakistan choose the most suitable and profitable crop using soil and weather data such as pH, rainfall, temperature, and humidity. It supports data-driven farming to improve yield, reduce risk, & promote sustainable agriculture.
 
 This project is built from scratch without using pre-trained deep learning models, focusing on the fundamental mathematics of Machine Learning algorithms.
 
