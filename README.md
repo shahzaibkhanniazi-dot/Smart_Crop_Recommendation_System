@@ -93,6 +93,37 @@ This project is built from scratch without using pre-trained deep learning model
 *Figure 2: Confusion Matrix showing model performance across all 22 crop classes.*
 
 ---
+### 🔬 Advanced Research Validation
+To ensure the model is scientifically robust, we performed 5 rigorous stress tests:
+
+**1. Stability Test (5-Fold Cross-Validation)**
+- **Method:** Split data into 5 different subsets and trained 5 separate times.
+- **Result:** Average accuracy remained consistent at **~98%**, proving the model is stable and not just "lucky" with one specific dataset.
+
+**2. Interpretability (Feature Importance)**
+- **Method:** Analyzed which soil factors contribute most to the decision.
+- **Insight:** As shown in the graph below, **Potassium (K)** and **Humidity** were identified as the dominant features, aligning with agronomic science (water and root development are critical).
+
+![Feature Importance Graph](feature_importance.png)
+*Figure 3: Feature Importance analysis showing Potassium and Humidity as the primary decision drivers.*
+
+**3. Robustness Check (Noise Injection)**
+- **Method:** Injected random noise (+/- 5%) into input data to simulate faulty sensors.
+- **Result:** The model maintained correct predictions (e.g., still predicting "Rice" even with noisy data), demonstrating robustness against real-world data imperfections.
+
+**4. Baseline Comparison (The "Sanity Check")**
+- **Method:** Compared our Decision Tree against a "Dummy Classifier" (Random Guessing).
+- **Result:**
+  - Dummy Model Accuracy: **~4.5%**
+  - Our AI Model Accuracy: **97.95%**
+  - **Conclusion:** The AI is significantly learning patterns, not just guessing.
+
+**5. Learning Curve Analysis**
+- **Method:** Plotted accuracy vs. training size.
+- **Result:** The curve below shows that the Cross-Validation Score (Green Line) increases steadily as we add more data, eventually converging with the Training Score. This indicates that our dataset size (2200 samples) is sufficient for this problem.
+
+![Learning Curve Graph](learning_curve.png)
+*Figure 4: Learning Curve demonstrating model improvement and convergence with increased data size.*
 
 ## 🔮 Future Scope & Improvements
 While this project successfully demonstrates the power of the Decision Tree algorithm for crop recommendation, there are several areas for future enhancement:
