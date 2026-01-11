@@ -132,6 +132,48 @@ While this project successfully demonstrates the power of the Decision Tree algo
 3. **Real-Time IoT Data:** Integrating with IoT sensors to automatically fetch soil moisture and temperature data instead of manual entry.
 4. **Localization:** Adding support for local languages (Urdu) to make the tool accessible to rural farmers in Pakistan.
 
+### 📚 Literature Review (2024–2025)
+*To ensure this project aligns with state-of-the-art research, we reviewed 10 recent papers focusing on Machine Learning in precision agriculture:*
+
+1.  **[Crop Recommendation System Using Machine Learning (2024)](https://www.researchgate.net/publication/368866560_Crop_Recommendation_System_Using_Machine_Learning)**
+    * *Authors:* Gambhir, G., & Sharma, A.
+    * *Key Finding:* Proposed a system using climatic variables and soil data. Tested multiple models and found **Random Forest** gave the best results, highlighting the importance of N-P-K values for accuracy.
+
+2.  **[A Comprehensive Crop Recommendation System Integrating Machine Learning and Deep Learning Models (2024)](https://ieeexplore.ieee.org/document/10530724/)**
+    * *Source:* IEEE Conference
+    * *Key Finding:* Compared traditional ML against Deep Learning (TCN). Found that while TCN is 99.9% accurate, standard models like **Random Forest (99.2%)** are excellent and faster to train.
+
+3.  **[A Decision Support System for Crop Recommendation Using Machine Learning Classification Algorithms (2024)](https://www.mdpi.com/2077-0472/14/8/1256)**
+    * *Source:* MDPI Agriculture
+    * *Key Finding:* Used **SMOTE** to balance data and found that Support Vector Classifiers worked well for checking soil types in specific regions of India.
+
+4.  **[Enhancing Precision Agriculture with Machine Learning & IoT (2024)](https://ieeexplore.ieee.org/document/10561658/)**
+    * *Source:* IEEE Conference
+    * *Key Finding:* Proposed combining ML with **IoT sensors** to get real-time moisture/temperature data instead of manual entry, using Decision Tree Regression for yield prediction.
+
+5.  **[IDTC: Crop Recommendation System using Improved Decision Tree Classification Algorithm (2025)](https://ieeexplore.ieee.org/document/10895959/)**
+    * *Source:* IEEE Xplore
+    * *Key Finding:* Introduced a feature selection step to pick key soil factors before building the tree. This validates our project's approach of focusing on key nutrients (N, P, K).
+
+6.  **[Evaluation of Learning-Based Models for Crop Recommendation in Smart Agriculture (2025)](https://www.mdpi.com/2078-2489/16/8/632)**
+    * *Source:* MDPI Information
+    * *Key Finding:* Compared text-based models (like GPT-2) with tabular models. Found that while text models are accurate (99.55%), they take much longer to train than the **Decision Tree** approach we used.
+
+7.  **[Incorporating soil information with machine learning for crop recommendation (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11903965/)**
+    * *Source:* Nature Scientific Reports
+    * *Key Finding:* Created an ensemble method (RFXG) achieving 98% accuracy. Proved that **pH level** is a critical decider for crops like Rice and Cotton.
+
+8.  **[AI-Based Smart Crop Recommendation for Sustainable Production (2025)](https://masujournal.org/view_journal.php?id=566)**
+    * *Source:* MASU Journal
+    * *Key Finding:* Confirmed that "Ensemble" methods usually beat single models. Their system categorizes crops into "Recommended" and "Not Recommended," a user-friendly feature we aim to replicate.
+
+9.  **[Deep learning–based approaches for weed detection in crops (2025)](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1746406/full)**
+    * *Source:* Frontiers in Plant Science
+    * *Key Finding:* While our project focuses on recommendation, this suggests a future improvement: using cameras/Deep Learning to identify weeds that steal nutrients from the recommended crops.
+
+10. **[AgroSense: An Integrated Deep Learning System via Soil Image Analysis (2025)](https://arxiv.org/abs/2509.01344)**
+    * *Source:* arXiv
+    * *Key Finding:* Found that looking at a **picture of the soil** plus knowing the N-P-K values gives the best results (>98% accuracy), marking the next step in precision farming.
 ---
 
 ## 👨‍💻 Author & Contact
