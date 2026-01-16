@@ -108,7 +108,7 @@ To ensure the model is scientifically robust, we performed 5 rigorous stress tes
 *Figure 3: Feature Importance analysis showing Potassium and Humidity as the primary decision drivers.*
 
 **3. Robustness Check (Noise Injection)**
-- **Method:** Injected random noise (+/- 5%) into input data to simulate faulty sensors.
+- **Method:** To assess robustness, we introduced $\pm 5\%$ Gaussian noise into the input features, simulating real-world sensor inaccuracies and data imperfections.
 - **Result:** The model maintained correct predictions (e.g., still predicting "Rice" even with noisy data), demonstrating robustness against real-world data imperfections.
 
 **4. Baseline Comparison (The "Sanity Check")**
