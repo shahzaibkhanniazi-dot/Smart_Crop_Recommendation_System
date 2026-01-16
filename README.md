@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 The Smart Crop Recommendation System is an AI tool designed for Pakistani farmers. It uses soil and weather data to suggest the best crops, helping increase profits and support sustainable farming.
 
-This project is built from scratch without using pre-trained deep learning models, focusing on the fundamental mathematics of Machine Learning algorithms.
+We built this project ourselves from the scratch up without using ready-made AI models, focusing on the basic math that makes machine learning work.
 
 **Student:** Shah Zaib Khan (Student ID: SU92-MSAIW-S25-019, MS-AI)
 **Teammate:** Talha Bin Aslam (Student ID: SU92-MSAIW-F25-043, MS-AI)
