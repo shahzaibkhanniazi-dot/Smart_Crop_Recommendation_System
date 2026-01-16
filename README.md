@@ -75,30 +75,20 @@ We built this project ourselves from the scratch up without using ready-made AI 
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 - **Environment:** Google Colab / Jupyter Notebook
 
-✅ Week 4: Final Results and Reporting
-Status: Finished
+### ✅ Week 4: Performance Evaluation & Documentation
+**Status:** Completed
+**Key Activities:**
+- **Rigorous Evaluation:**
+  - Generated a comprehensive Classification Report (Precision, Recall, F1-Score).
+  - Achieved an overall **Accuracy of 98%**.
+  - Identified **Perfect Predictions (F1=1.0)** for crops like Apple, Banana, and Cotton.
+- **Error Analysis:**
+  - Visualized errors using a **Confusion Matrix**.
+  - Observed minor confusion between **Rice** and **Jute**, likely due to their similar high-water requirements.
+- **Documentation:**
+  - Finalized the project report with a literature review of recent studies.
+  - Organized the repository for submission.
 
-Main Tasks:
-
-Checking Performance:
-
-We created a detailed report to see how well the model works.
-
-The model reached a total accuracy of 98%.
-
-It was 100% perfect at identifying certain crops like Apple, Banana, and Cotton.
-
-Looking for Mistakes:
-
-We used a chart (Confusion Matrix) to see where the AI got confused.
-
-The AI sometimes mixed up Rice and Jute because both crops need a lot of water.
-
-Final Documentation:
-
-We finished the final report and included a summary of other scientific studies.
-
-We organized all our files and code so they are ready to be turned in.
 ![Confusion Matrix](confusion_matrix.png)
 *Figure 2: Confusion Matrix showing model performance across all 22 crop classes.*
 
