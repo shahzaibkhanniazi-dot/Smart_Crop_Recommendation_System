@@ -176,7 +176,7 @@ While this project successfully demonstrates the power of the Decision Tree algo
     * *Key Finding:* Found that looking at a **picture of the soil** plus knowing the N-P-K values gives the best results (>98% accuracy), marking the next step in precision farming.
 ---
 
-## 👨‍💻 Author & Contact
+## 👨‍💻 Author & Contact :
 **Project By:**
 * **Shah Zaib Khan** (ID: SU92-MSAIW-S25-019)
 * **Talha Bin Aslam** (ID: SU92-MSAIW-F25-043)
