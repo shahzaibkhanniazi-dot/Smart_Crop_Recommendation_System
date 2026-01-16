@@ -97,7 +97,7 @@ This project is built from scratch without using pre-trained deep learning model
 To ensure the model is scientifically robust, we performed 5 rigorous stress tests:
 
 **1. Stability Test (5-Fold Cross-Validation)**
-- **Method:** Split data into 5 different subsets and trained 5 separate times.
+- **Method:** We utilized a 5-Fold Cross-Validation technique, partitioning the dataset into five mutually exclusive subsets to ensure the model's stability and generalization across different data distributions.
 - **Result:** Average accuracy remained consistent at **~98%**, proving the model is stable and not just "lucky" with one specific dataset.
 
 **2. Interpretability (Feature Importance)**
