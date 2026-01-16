@@ -180,7 +180,6 @@ While this project successfully demonstrates the power of the Decision Tree algo
 **Project By :**
 * **Shah Zaib Khan**: (ID: SU92-MSAIW-S25-019)
 * **Talha Bin Aslam**: (ID: SU92-MSAIW-F25-043)
-.
 
 **Course:** MS-AI (Fall 2025)
 **University:** Superior University
