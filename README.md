@@ -101,7 +101,7 @@ To ensure the model is scientifically robust, we performed 5 rigorous stress tes
 - **Result:** Average accuracy remained consistent at **~98%**, proving the model is stable and not just "lucky" with one specific dataset.
 
 **2. Interpretability (Feature Importance)**
-- **Method:** Analyzed which soil factors contribute most to the decision.
+- **Method:** We conducted a Feature Importance Analysis to quantify the relative contribution of each environmental variable, identifying which soil and climatic factors most significantly influence the model's predictive logic.
 - **Insight:** As shown in the graph below, **Potassium (K)** and **Humidity** were identified as the dominant features, aligning with agronomic science (water and root development are critical).
 
 ![Feature Importance Graph](feature_importance.png)
