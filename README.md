@@ -30,18 +30,20 @@ We built this project ourselves from the scratch up without using ready-made AI 
 
 ---
 
-✅ Week 2: Building and Testing the Model
-Status: Finished
-
-Main Tasks:
-
-Creating the Model: * We built a Decision Tree model that uses logic to pick crops.
-We limited how deep the "tree" grows to keep the model accurate but simple.
-Training and Results: * We taught the model using 1,760 examples from our data.
-The model got 97.95% of its guesses right during testing.
-Making it Reliable: * We set a "random state" so the model gives the exact same results every time it runs.
-We saved the finished model as a file (.pkl) so we can use it later without retraining it.
-Visual Aid: * We created a chart that shows exactly how the AI thinks and makes its choices.
+### ✅ Week 2 : Model Development & Stabilization
+**Status :** Completed.
+**Key Activities :**
+- **Model Architecture :**
+  - Built a custom **Decision Tree Classifier** using Scikit-Learn (Entropy criterion).
+  - Set `max_depth=12` to balance accuracy and prevent overfitting.
+- **Training & Evaluation:**
+  - Trained the model on the training dataset (1760 samples).
+  - Achieved a high validation accuracy of **97.95%** on the test set.
+- **Model Stabilization:**
+  - Implemented `random_state=42` to ensure 100% reproducible results every time the code is run.
+  - **Model Persistence:** Saved the trained model as a `.pkl` file (`crop_recommendation_model.pkl`) to lock the learned weights permanently.
+- **Visualization :**
+  - Generated a decision tree plot to visualize the decision-making logic of the AI.
 
 ![Decision Tree Logic](decision_tree_visual_clean.png)
 *Figure 1: Visualization of the Decision Tree Logic (Top 3 Levels)*
